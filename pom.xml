@@ -39,6 +39,11 @@
 			<version>RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 		<!--Mybatis-->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
@@ -46,6 +51,7 @@
 			<version>2.1.3</version>
 		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>
